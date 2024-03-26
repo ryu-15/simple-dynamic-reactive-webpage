@@ -10,7 +10,7 @@ const StyledNavbar=styled.div`
     height: 10%;
     top:0;
     overflow: hidden;
-    background-color: white;
+    background-color: black;
     width: 100%;
     z-index: 999;
 `
@@ -24,11 +24,12 @@ const StyledNavLi=styled.li`
 `
 const StyledNavAnchor=styled.a`
  font-family: Roboto;
- color: black;
+    color: white;
  font-size: 1.2rem;
  font-weight: 500;
  text-decoration: none;
  line-height: 2.8rem;
+    
 `
 const StyledRevelLogo=styled.span`
     font-family: Aquire;
@@ -54,7 +55,7 @@ const StyledButton=styled.button`
     line-height: 0;
     border: 2px solid var(--blue);
     color: var(--blue);
-    background-color: white;
+    background-color: transparent;
 `
 
 export {StyledNavAnchor,StyledNavLi,StyledNavbar,StyledNavItem,StyledRevelLogo,StyledBtnContainer,StyledButton}

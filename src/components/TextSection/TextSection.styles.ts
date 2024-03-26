@@ -10,10 +10,16 @@ const StyledTextSection=styled.div`
 
  const StyledTitle=styled.h2`
     padding-top: 218px;
-    color: var(--grayTwo);
+    color: white;
     font-size: 2.75rem;
     font-style: normal;
     font-weight: 700;
     line-height: 110%;
 `
-export {StyledTitle,StyledTextSection}
+const StyledDescription=styled.p`
+color:white;
+font-size: 1.25rem;
+font-family: roboto ;
+ margin: 0;
+`
+export {StyledTitle,StyledTextSection,StyledDescription}
