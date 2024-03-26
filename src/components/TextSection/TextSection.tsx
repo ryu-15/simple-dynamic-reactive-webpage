@@ -1,17 +1,22 @@
+
+
+import {StyledTextSection, StyledTitle} from "./TextSection.styles.ts";
+
+
 const TextSection=()=> {
     return (
-        <div className="text-section">
-            <h2>
+        <StyledTextSection>
+            <StyledTitle>
                 To Get The Best Web Design For Your Company Talk With Us
-            </h2>
+            </StyledTitle>
             <p>
                 Pellentesque convallis accumsan suscipit aliquet eu diam quis nulla turpis. In mus massa
                 lectus laoreet sed semper bibendum id. Iaculis purus malesuada porttitor aliquam
                 pulvinar.
                 Mi congue convallis tincidunt lobortis amet ultricies phasellus porttitor.
             </p>
-        </div>
-    )
+        </StyledTextSection>
+    );
 };
 
 export default TextSection;
