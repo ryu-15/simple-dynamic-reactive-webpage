@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# Simple Webpage with React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This is a webpage made by using react framework, typescript as the core ,and vite as the bundler.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We have used external CSS to style the components of webpage.
 
-## Expanding the ESLint configuration
+## Follow these simple steps to get your webpage up and running quickly.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- ## Installation Guide:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  ### Step 1 : Install all dependencies in the local node_modules folder
+
+  ```npm install```
+
+---
+- ## Running Your Development Server:
+
+  ### Step 2: Start Development Server
+
+  ```npm run dev```
+
+---
+- ## Accessing Your Local Host:
+
+  ### Step 3: Open the local host
+
+  > ➜  Local:   http://localhost:3000/
+
+---
+
+
+## Overview of the webpage
+
+>Landing Page of the webpage
+
+
+>Tab Page of webpage
