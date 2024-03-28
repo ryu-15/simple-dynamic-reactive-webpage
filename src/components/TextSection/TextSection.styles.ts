@@ -18,8 +18,8 @@ const StyledTextSection=styled.div`
 `
 const StyledDescription=styled.p`
 color:white;
-font-size: 1.25rem;
-font-family: roboto ;
+font-size: 18px;
+font-family: var(--defaultFont) ;
  margin: 0;
 `
 export {StyledTitle,StyledTextSection,StyledDescription}

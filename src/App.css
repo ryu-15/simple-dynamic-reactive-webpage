@@ -21,8 +21,8 @@ body {
   --grayWhite:#F2F4F8;
   --lightGray:rgba(105, 112, 119, 0.16);
   --hoverShadow:0px 2px 6px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
-  --defaultFont:Roboto,neo-grotesque sans-serif;
-  --fancyFont:Aquire,modern sans serif font;
+  --defaultFont:Roboto;
+  --fancyFont:Aquire;
 }
 section.landing-page{
   width:100%;

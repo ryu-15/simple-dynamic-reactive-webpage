@@ -23,7 +23,7 @@ const StyledNavLi=styled.li`
  display: inline;
 `
 const StyledNavAnchor=styled.a`
- font-family: Roboto;
+ font-family: var(--defaultFont);
     color: white;
  font-size: 1.2rem;
  font-weight: 500;
@@ -32,7 +32,7 @@ const StyledNavAnchor=styled.a`
     
 `
 const StyledRevelLogo=styled.span`
-    font-family: Aquire;
+    font-family: var(--fancyFont);
     font-size: 2rem;
     font-weight: 700;
     color: var(--grayOne);
@@ -45,7 +45,7 @@ const StyledBtnContainer=styled.div`
     gap: 16px;
 `
 const StyledButton=styled.button`
-    font-family: Roboto;
+    font-family: var(--defaultFont);
     font-size: 1rem;
     padding: 16px 12px;
     border-radius: 10px;
