@@ -1,9 +1,8 @@
-
-const TabHeadingAboutTab=()=>{
+const TabHeadingAboutTab = () => {
     return (
-       <>
-     <div></div>
-       </>
+        <>
+            <div></div>
+        </>
     )
 };
 

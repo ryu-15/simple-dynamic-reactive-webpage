@@ -17,9 +17,9 @@ const StyledTextSection=styled.div`
     line-height: 110%;
 `
 const StyledDescription=styled.p`
-color:white;
-font-size: 18px;
-font-family: var(--defaultFont) ;
+ color: white;
+ font-size: 18px;
+ font-family: var(--defaultFont);
 
 `
 export {StyledTitle,StyledTextSection,StyledDescription}

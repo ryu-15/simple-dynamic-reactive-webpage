@@ -9,10 +9,11 @@ import UiUxLogo from "../../assets/BackgroundImg/ui-ux.jpg";
 import HollowCircle from "../../assets/BackgroundShape/hollow.jpg";
 import RevelLogo from "../../assets/BackgroundImg/Revel-logo.jpg";
 import Robot from "../../assets/BackgroundImg/robot.jpg";
-const BackgroundSection=()=>{
+
+const BackgroundSection = () => {
     return (
         <StyledBackgroundSection>
-            <StyledBigEllipse />
+            <StyledBigEllipse/>
             <StyledEllipseTopLeft/>
             <StyledEllipseTopRight/>
             <StyledEllipseBottomLeft/>
@@ -21,7 +22,7 @@ const BackgroundSection=()=>{
             <StyledHollowCircle src={HollowCircle}/>
             <StyledRobot src={Robot}/>
             <StyledRobotBackground/>
-            </StyledBackgroundSection>
+        </StyledBackgroundSection>
     )
 };
 

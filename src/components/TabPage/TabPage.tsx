@@ -1,19 +1,11 @@
+import TabHeading from "../TabHeading/TabHeading.tsx";
 
-/*
-import TabHeadingFeatureTab from "../TabHeadingFeature/TabHeadingFeature.tsx";
-import TabHeadingTestimonialTab from "../TabHeadingTestimonial/TabHeadingTestimonial.tsx";
+const TabPage = () => {
+    return (
+        <>
+            <TabHeading/>
 
-*/
-
-import TabHeading from "../try/Try3.tsx";
-
-const TabPage=()=>{
-    return(
-            <div>
-                <TabHeading/>
-              {/*  <TabHeadingFeatureTab/>*/}{/*
-                <TabHeadingTestimonialTab/>*/}
-            </div>
+        </>
     );
 };
 export default TabPage

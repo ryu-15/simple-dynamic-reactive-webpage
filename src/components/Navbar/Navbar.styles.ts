@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 const StyledNavbar=styled.div`
     padding-top: 16px;
-    padding-left:5%;
+    padding-left: 5%;
     display: flex;
     flex-direction: row;
     gap: 25%;
     position: fixed;
     height: 10%;
-    top:0;
+    top: 0;
     overflow: hidden;
     background-color: black;
     width: 100%;
@@ -44,7 +44,7 @@ const StyledBtnContainer=styled.div`
     flex-direction: row;
     gap: 16px;
 `
-const StyledButton=styled.button`
+const StyledButtonBlack=styled.button`
     font-family: var(--defaultFont);
     font-size: 1rem;
     padding: 16px 12px;
@@ -58,4 +58,18 @@ const StyledButton=styled.button`
     background-color: transparent;
 `
 
-export {StyledNavAnchor,StyledNavLi,StyledNavbar,StyledNavItem,StyledRevelLogo,StyledBtnContainer,StyledButton}
+const StyledButtonBlue=styled.button`
+    font-family: var(--defaultFont);
+    font-size: 1rem;
+    padding: 16px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 144px;
+    height: 48px;
+    line-height: 0;
+    border: 2px solid var(--blue);
+    color: white;
+    background-color: var(--blue);
+`
+
+export {StyledButtonBlue,StyledNavAnchor,StyledNavLi,StyledNavbar,StyledNavItem,StyledRevelLogo,StyledBtnContainer,StyledButtonBlack}

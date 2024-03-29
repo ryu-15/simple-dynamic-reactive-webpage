@@ -1,5 +1,5 @@
 import {
-    StyledBtnContainer, StyledButton,
+    StyledBtnContainer, StyledButtonBlack, StyledButtonBlue,
     StyledNavAnchor,
     StyledNavbar,
     StyledNavItem,
@@ -7,7 +7,7 @@ import {
     StyledRevelLogo
 } from "./Navbar.styles.ts";
 
-const NavBar=()=>{
+const NavBar = () => {
     return (
         <StyledNavbar>
             <StyledNavItem>
@@ -17,8 +17,8 @@ const NavBar=()=>{
             </StyledNavItem>
             <StyledRevelLogo>REVEL</StyledRevelLogo>
             <StyledBtnContainer>
-                <StyledButton id="sign-btn">Button text</StyledButton>
-                <StyledButton id="login-btn">Button text</StyledButton>
+                <StyledButtonBlack>Button text</StyledButtonBlack>
+                <StyledButtonBlue>Button text</StyledButtonBlue>
             </StyledBtnContainer>
         </StyledNavbar>
     );

@@ -1,9 +1,7 @@
-
-
 import {StyledDescription, StyledTextSection, StyledTitle} from "./TextSection.styles.ts";
 
 
-const TextSection=()=> {
+const TextSection = () => {
     return (
         <StyledTextSection>
             <StyledTitle>

@@ -6,16 +6,13 @@ const StyledFeatureDescription=styled.p`
     text-align:center;
     font-family: var(--defaultFont);    
     font-size: 1.5rem;
-    
-    
-    
+    margin-top: 3%;
 `
 const StyledFeatureContentContainer=styled.div`
-display: flex;
-
-gap:7rem;
+    display: flex;
+    gap: 3rem;
     margin-top: 10%;
-    margin-left: 3%;
+    margin-left: 6%;
 `
 const StyledFeatureContent=styled.span`
 display: flex;

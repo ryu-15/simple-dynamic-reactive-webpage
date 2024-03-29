@@ -6,7 +6,7 @@ import {
 import TextSection from "../TextSection/TextSection.tsx";
 import BackgroundSection from "../BackgroundSection/BackgroundSection.tsx";
 
-const LandingPage=()=>{
+const LandingPage = () => {
     return (
         <StyledLandingPageSection>
             <StyledLandingPageContent>
