@@ -1,15 +1,20 @@
+/*
+import {StyledTabHeading, StyledTabHeadingBtn, StyledTabHeadingBtnContainer} from "./TabHeading.styles.ts";
 
 const TabHeading=()=>{
     return (
-        <div>
-            <div className="tab-list">
-                <span>Features</span>
-                <span>Testimonial</span>
-                <span>About us</span>
-                <span>Home</span>
-            </div>
-        </div>
+        <>
+            <StyledTabHeading>
+            <StyledTabHeadingBtnContainer>
+                <StyledTabHeadingBtn>Features</StyledTabHeadingBtn>
+                <StyledTabHeadingBtn>Testimonial</StyledTabHeadingBtn>
+                <StyledTabHeadingBtn>About us</StyledTabHeadingBtn>
+                <StyledTabHeadingBtn>Home</StyledTabHeadingBtn>
+            </StyledTabHeadingBtnContainer>
+            </StyledTabHeading>
+        </>
     )
 };
 
 export default TabHeading;
+*/

@@ -20,6 +20,6 @@ const StyledDescription=styled.p`
 color:white;
 font-size: 18px;
 font-family: var(--defaultFont) ;
- margin: 0;
+
 `
 export {StyledTitle,StyledTextSection,StyledDescription}

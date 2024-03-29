@@ -35,7 +35,7 @@ const StyledRevelLogo=styled.span`
     font-family: var(--fancyFont);
     font-size: 2rem;
     font-weight: 700;
-    color: var(--grayOne);
+    color: white;
     margin-left: 5%;
 `
 

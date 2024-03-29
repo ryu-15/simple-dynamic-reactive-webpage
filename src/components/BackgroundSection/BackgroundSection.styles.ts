@@ -8,7 +8,7 @@ const StyledRevelLogoImg=styled.img`
     position: absolute;
     top:60%;
     left: 50%;
-    z-index: 2;
+    z-index: 3;
     border-radius: 100px;
 `
 const StyledUiUxImg=styled.img`
@@ -18,29 +18,25 @@ const StyledUiUxImg=styled.img`
     z-index: 2;
     border-radius: 100px;
 `
-
-/*background image css*/
-const StyledEllipse=styled.img`
-    width:2.7rem;
-    height: 2.7rem;
-    z-index: 1;
-`
-
 const StyledRobot=styled.img`
     position: absolute;
-    width:37 rem;
+    width:37rem;
     height:37rem;
-    z-index: 1;
+    z-index: 2;
     top: 36%;
     left: 57%;
 `
-const StyledBigEllipse=styled.img`
+const StyledBigEllipse=styled.div`
     width: 3.5rem;
     height:3.5rem;
     position: absolute;
     top: 25%;
     left: 46%;
+    background: linear-gradient(white, black);
     border-radius: 50%;
+    filter:blur(0.15rem);
+    opacity: 90%;
+    
 `
 
 const StyledHollowCircle=styled.img`
@@ -52,35 +48,53 @@ const StyledHollowCircle=styled.img`
     z-index: 0;
 `
 
-export {StyledRobotBackground,StyledBackgroundSection,StyledRobot,StyledEllipse,StyledBigEllipse,StyledHollowCircle,StyledUiUxImg,StyledRevelLogoImg}
+export {StyledRobotBackground,StyledBackgroundSection,StyledRobot,StyledEllipseTopLeft,StyledEllipseTopRight,StyledEllipseBottomLeft,StyledBigEllipse,StyledHollowCircle,StyledUiUxImg,StyledRevelLogoImg}
 const StyledRobotBackground=styled.div`
     position: absolute;
-    background: linear-gradient(white, black); 
-    opacity: 30%;
+    background: linear-gradient(white, black);
     width:37rem;
     opacity: 100%;
     height: 37rem;
     top: 36%;
     left: 57%;
-    z-index: 0;
+    z-index: 1;
     border-radius: 50%;
     padding: 0;
 `
-/*.background-small-1-ellipse {
-    position: absolute;
-    top: 18%;
-    left: 93%;
-}
 
-.background-small-2-ellipse {
-    position: absolute;
-    top: 84%;
-    left: 97%;
-}
-
-.background-small-3-ellipse {
-    position: absolute;
+const StyledEllipseTopLeft=styled.div`
+    width:2.7rem;
+    height: 2.7rem;
+    z-index: 1;
+    background: linear-gradient(white, black);
+    border-radius: 50%;
+     position: absolute;
     top: 80%;
-    left: 56%;
-    z-index: 1000;
-}*/
+    left: 54%;
+    filter:blur(0.15rem);
+    opacity: 90%;
+`
+const StyledEllipseBottomLeft=styled.div`
+    width:2.7rem;
+    height: 2.7rem;
+    z-index: 1;
+    background: linear-gradient(white, black);
+    border-radius: 50%;
+     position: absolute;
+    top: 125%;
+    left: 91.5%;
+    filter:blur(0.15rem);
+    opacity: 90%;
+`
+const StyledEllipseTopRight=styled.div`
+    width:2.7rem;
+    height: 2.7rem;
+    z-index: 1;
+    background: linear-gradient(white, black);
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 93%;
+    filter:blur(0.15rem);
+    opacity: 90%;
+`

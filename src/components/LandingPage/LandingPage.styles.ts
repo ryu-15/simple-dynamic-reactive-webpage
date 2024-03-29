@@ -6,8 +6,6 @@ const StyledLandingPageSection=styled.section`
     position: relative;
 `
 const StyledLandingPageContent=styled.div`
-    width: 100%;
-    height: 100%;
     padding-left: 90px;
     display: flex;
     flex-direction: row;
@@ -20,4 +18,5 @@ const StyledLandingGraphics=styled.div`
     top:0;
     right:0;
 `
+
 export {StyledLandingGraphics,StyledLandingPageSection,StyledLandingPageContent}
