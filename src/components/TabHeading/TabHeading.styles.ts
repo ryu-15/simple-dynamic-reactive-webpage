@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledTabHeading = styled.div`
     margin-top: 15%;
-    background: linear-gradient(to right, #242424, black);
+    background: linear-gradient(to right, #101010, black);
     display: flex;
 
     flex-direction: column;
@@ -18,7 +18,7 @@ const StyledTabHeadingBtn = styled.button`
     width: 11.25rem;
     height: 3.5rem;
     padding: 1rem;
-
+border:none;
     font-weight: 500;
     background: none;
     border-radius: 0.4rem;

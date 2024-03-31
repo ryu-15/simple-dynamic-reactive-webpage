@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import TabHeadingFeatureTab from "../TabHeadingFeature/TabHeadingFeature.tsx";
-import TabHeadingTestimonialTab from "../TabHeadingTestimonial/TabHeadingTestimonial.tsx";
 import TabHeadingHomeTab from "../TabHeadingHome/TabHeadingHome.tsx";
 import TabHeadingAboutTab from "../TabHeadingAbout/TabHeadAbout.tsx";
 import {StyledTabHeading, StyledTabHeadingBtn, StyledTabHeadingBtnContainer} from "./TabHeading.styles.ts";
+import TabHeadingTestimonial from "../TabHeadingTestimonial/TabHeadingTestimonial.tsx";
 
 interface TabHeadingContent {
     tabName: string;
@@ -12,7 +12,7 @@ interface TabHeadingContent {
 
 const buttonList: TabHeadingContent[] = [
     {tabName: 'Features', tabContent: <TabHeadingFeatureTab/>},
-    {tabName: 'Testimonial', tabContent: <TabHeadingTestimonialTab/>},
+    {tabName: 'Testimonial', tabContent: <TabHeadingTestimonial/>},
     {tabName: 'About us', tabContent: <TabHeadingHomeTab/>},
     {tabName: 'Home', tabContent: <TabHeadingAboutTab/>},
 ]

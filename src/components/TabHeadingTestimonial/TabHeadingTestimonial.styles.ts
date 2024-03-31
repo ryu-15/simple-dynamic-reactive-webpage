@@ -7,11 +7,13 @@ const StyledTestimonialDescription=styled.p`
     font-size: 1.5rem;
     font-style: italic;
     font-weight:500;
-    margin-right: 6%;
-    margin-left: 10%;
-    margin-top: 10%;
     line-height: 38px;
     letter-spacing: 0.6px;
+    margin-top: 8%;
+    margin-right: 6%;
+    margin-left: 6%;
+    height: 70%;
+    margin-bottom: 0%;
 `;
 const StyledTestimonialContentContainer=styled.div`
     width: 55rem;
@@ -19,7 +21,7 @@ const StyledTestimonialContentContainer=styled.div`
     border-radius: 3.438rem;
     background: linear-gradient(#595959, #090909);
     padding: 0.625rem;
-    margin-top: 10%;
+    margin-top: 11%;
 `;
 const StyledTestimonialContent=styled.div`
     display: flex;
@@ -29,6 +31,7 @@ const StyledTestimonialContent=styled.div`
     border-radius:2.813rem;
     position: relative;
     background: linear-gradient( #303030, #030303);
+    gap: 10%;
 `;
 const StyledTestimonialCustomerName=styled.span`
 font-family: var(--defaultFont);
@@ -36,13 +39,14 @@ font-family: var(--defaultFont);
     font-weight: 500; 
     color: white;
     margin-bottom: 1%;
+    
 `;
 const StyledTestimonialCustomerCompanyName=styled.span`
     color: var(--grayOne);
-    text-align: center;
     font-family:var(--defaultFont);
     font-size: 1.1rem;
     font-weight: 300;
+   
 `;
 
 
@@ -72,15 +76,16 @@ const StyledArrowRight=styled.img`
 const StyledTestimonialCustomerDetail=styled.section`
 display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: 20%;
+text-align: center;
+    align-items: center;
+    gap: 2%;
+    height: 100%;
 `;
 
 const StyledTestimonialCustomerImg=styled.img`
 width: 6rem;
     height: 6rem;
-    position: absolute;
-    top:55%;
-    left:45%;
+    margin-bottom: 3%;
+   
 `;
 export {StyledTestimonialCustomerName,StyledTestimonialCustomerCompanyName,StyledTestimonialCustomerImg,StyledTestimonialContentContainer,StyledTestimonialCustomerDetail,StyledArrowLeft,StyledArrowRight,StyledDoubleQuotation,StyledTestimonialDescription,StyledTestimonialContent}
