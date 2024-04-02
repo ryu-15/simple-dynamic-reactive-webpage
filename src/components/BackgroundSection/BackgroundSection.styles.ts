@@ -56,13 +56,12 @@ const StyledRobot=styled.img`
 `
 const StyledRobotBackground = styled(StyledRobot)`
     background-image: linear-gradient(white, black);
-    z-index: 1;
     border-radius: 50%;
     padding: 0;
    
 `
 const StyledRobotImg = styled(StyledRobot)`
-    z-index: 2;
+    display: flex;
 `
 const StyledSmallEllipse = styled.div`
     width: 2.5rem;

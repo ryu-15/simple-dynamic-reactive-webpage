@@ -20,8 +20,8 @@ const BackgroundSection = () => {
             <StyledRevelLogoImg src={RevelLogo}/>
             <StyledUiUxImg src={UiUxLogo}/>
             <StyledHollowCircle src={HollowCircle}/>
-            <StyledRobotImg src={Robot}/>
             <StyledRobotBackground/>
+            <StyledRobotImg src={Robot}/>
         </StyledBackgroundSection>
     )
 };
