@@ -1,5 +1,5 @@
 import {
-    StyledBtnContainer, StyledButtonBlack, StyledButtonBlue,
+    StyledBtnContainer, StyledButton, StyledButtonBlue,
     StyledNavAnchor,
     StyledNavbar,
     StyledNavItem,
@@ -17,7 +17,7 @@ const NavBar = () => {
             </StyledNavItem>
             <StyledRevelLogo>REVEL</StyledRevelLogo>
             <StyledBtnContainer>
-                <StyledButtonBlack>Button text</StyledButtonBlack>
+                <StyledButton>Button text</StyledButton>
                 <StyledButtonBlue>Button text</StyledButtonBlue>
             </StyledBtnContainer>
         </StyledNavbar>

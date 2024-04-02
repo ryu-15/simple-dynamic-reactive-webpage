@@ -3,22 +3,22 @@ import styled from "styled-components";
 const StyledTextSection=styled.div`
     display: flex;
     flex-direction: column;
-    gap: 48px;
-    width: 738px;
+    gap: 12px;
+ width: 57%;
     font-size: 1.125rem;
 `
 
  const StyledTitle=styled.h2`
     padding-top: 218px;
     color: white;
-    font-size: 2.75rem;
+    font-size: 2.85rem;
     font-style: normal;
     font-weight: 700;
     line-height: 110%;
 `
 const StyledDescription=styled.p`
  color: white;
- font-size: 18px;
+ font-size: 20px;
  font-family: var(--defaultFont);
 
 `

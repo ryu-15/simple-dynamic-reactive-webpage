@@ -2,7 +2,7 @@ import {
     StyledBackgroundSection,
     StyledBigEllipse, StyledEllipseBottomLeft, StyledEllipseTopLeft, StyledEllipseTopRight,
     StyledHollowCircle,
-    StyledRevelLogoImg, StyledRobot, StyledRobotBackground,
+    StyledRevelLogoImg, StyledRobotImg, StyledRobotBackground,
     StyledUiUxImg
 } from "./BackgroundSection.styles.ts";
 import UiUxLogo from "../../assets/BackgroundImg/ui-ux.jpg";
@@ -20,7 +20,7 @@ const BackgroundSection = () => {
             <StyledRevelLogoImg src={RevelLogo}/>
             <StyledUiUxImg src={UiUxLogo}/>
             <StyledHollowCircle src={HollowCircle}/>
-            <StyledRobot src={Robot}/>
+            <StyledRobotImg src={Robot}/>
             <StyledRobotBackground/>
         </StyledBackgroundSection>
     )

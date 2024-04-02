@@ -4,14 +4,14 @@ const StyledTestimonialDescription=styled.p`
     color: white;
     text-align: center;
     font-family: var(--defaultFont);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-style: italic;
-    font-weight:500;
+    font-weight:400;
     line-height: 38px;
     letter-spacing: 0.6px;
-    margin-top: 8%;
-    margin-right: 6%;
-    margin-left: 6%;
+    margin-top: 10%;
+    margin-right: 7%;
+    margin-left: 7%;
     height: 70%;
     margin-bottom: 0%;
 `;
@@ -58,18 +58,19 @@ const StyledDoubleQuotation=styled.img`
     top: 6%;
     left: 8%;
 `;
-const StyledArrowLeft=styled.img`
+const StyledArrow=styled.img`
     width: 7%;
     height: 5%;
     position: absolute;
+
+`
+const StyledArrowLeft=styled(StyledArrow)`
+   
     left: 7%;
     top: 60%;
 `;
-const StyledArrowRight=styled.img`
+const StyledArrowRight=styled(StyledArrow)`
     transform: scaleX(-1);
-    width: 7%;
-    height: 5%;
-    position: absolute;
     top: 60%;
     left: 85%;
 `;

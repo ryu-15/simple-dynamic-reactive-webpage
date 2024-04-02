@@ -6,7 +6,7 @@ const StyledLandingPageSection=styled.section`
     position: relative;
 `
 const StyledLandingPageContent=styled.div`
-    padding-left: 90px;
+    padding-left: 60px;
     display: flex;
     flex-direction: row;
     font-family: var(--defaultFont);

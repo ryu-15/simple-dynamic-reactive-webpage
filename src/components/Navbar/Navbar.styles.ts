@@ -5,10 +5,9 @@ const StyledNavbar=styled.div`
     padding-left: 5%;
     display: flex;
     flex-direction: row;
-    gap: 25%;
+    gap: 19%;
     position: fixed;
     height: 10%;
-    top: 0;
     overflow: hidden;
     background-color: black;
     width: 100%;
@@ -36,40 +35,33 @@ const StyledRevelLogo=styled.span`
     font-size: 2rem;
     font-weight: 700;
     color: white;
-    margin-left: 5%;
+    margin-left: 11%;
 `
 
 const StyledBtnContainer=styled.div`
     display: flex;
     flex-direction: row;
     gap: 16px;
+    margin-right: 10%;
 `
-const StyledButtonBlack=styled.button`
+const StyledButton=styled.button`
     font-family: var(--defaultFont);
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 16px 12px;
     border-radius: 10px;
     cursor: pointer;
-    width: 144px;
-    height: 48px;
+    width: 158px;
+    height: 52px;
     line-height: 0;
     border: 2px solid var(--blue);
     color: var(--blue);
     background-color: transparent;
 `
 
-const StyledButtonBlue=styled.button`
-    font-family: var(--defaultFont);
-    font-size: 1rem;
-    padding: 16px 12px;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 144px;
-    height: 48px;
-    line-height: 0;
+const StyledButtonBlue=styled(StyledButton)`
     border: 2px solid var(--blue);
     color: white;
     background-color: var(--blue);
 `
 
-export {StyledButtonBlue,StyledNavAnchor,StyledNavLi,StyledNavbar,StyledNavItem,StyledRevelLogo,StyledBtnContainer,StyledButtonBlack}
+export {StyledButtonBlue,StyledNavAnchor,StyledNavLi,StyledNavbar,StyledNavItem,StyledRevelLogo,StyledBtnContainer,StyledButton}
