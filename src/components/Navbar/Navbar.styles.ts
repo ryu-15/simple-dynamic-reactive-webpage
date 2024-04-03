@@ -12,15 +12,15 @@ const StyledNavbar=styled.div`
     background-color: black;
     width: 100%;
     z-index: 999;
-`
+`;
 const StyledNavItem=styled.div`
  display: flex;
  flex-direction: row;
     gap:30%
-`
+`;
 const StyledNavLi=styled.li`
  display: inline;
-`
+`;
 const StyledNavAnchor=styled.a`
  font-family: var(--defaultFont);
     color: white;
@@ -28,22 +28,20 @@ const StyledNavAnchor=styled.a`
  font-weight: 500;
  text-decoration: none;
  line-height: 2.8rem;
-    
-`
+`;
 const StyledRevelLogo=styled.span`
     font-family: var(--fancyFont);
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: bolder;
     color: white;
     margin-left: 11%;
-`
-
+`;
 const StyledBtnContainer=styled.div`
     display: flex;
     flex-direction: row;
     gap: 16px;
     margin-right: 10%;
-`
+`;
 const StyledButton=styled.button`
     font-family: var(--defaultFont);
     font-size: 1.2rem;
@@ -56,12 +54,11 @@ const StyledButton=styled.button`
     border: 2px solid var(--blue);
     color: var(--blue);
     background-color: transparent;
-`
-
+`;
 const StyledButtonBlue=styled(StyledButton)`
     border: 2px solid var(--blue);
     color: white;
     background-color: var(--blue);
-`
+`;
 
 export {StyledButtonBlue,StyledNavAnchor,StyledNavLi,StyledNavbar,StyledNavItem,StyledRevelLogo,StyledBtnContainer,StyledButton}

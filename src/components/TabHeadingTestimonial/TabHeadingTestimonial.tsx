@@ -57,10 +57,10 @@ const TabHeadingTestimonial = () => {
                         {TestimonialTabList[selectedTestimonialTab].TestimonialContent}
                     </StyledTestimonialDescription>
                     <StyledArrowLeft src={arrow} onClick={() => handleArrowClick(-1)}/>
-                    <StyledTestimonialCustomerDetail>
                         <StyledTestimonialCustomerImg
                             src={TestimonialTabList[selectedTestimonialTab].TestimonialCustomerImg}/>
-                        <StyledTestimonialCustomerName>{TestimonialTabList[selectedTestimonialTab].TestimonialCustomerName}</StyledTestimonialCustomerName>
+                    <StyledTestimonialCustomerDetail>
+                    <StyledTestimonialCustomerName>{TestimonialTabList[selectedTestimonialTab].TestimonialCustomerName}</StyledTestimonialCustomerName>
                         <StyledTestimonialCustomerCompanyName>{TestimonialTabList[selectedTestimonialTab].TestimonialCustomerCompanyName}</StyledTestimonialCustomerCompanyName>
                     </StyledTestimonialCustomerDetail>
                     <StyledArrowRight src={arrow} onClick={() => handleArrowClick(1)}/>

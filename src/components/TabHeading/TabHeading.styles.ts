@@ -2,16 +2,14 @@ import styled from "styled-components";
 
 const StyledTabHeading = styled.div`
     margin-top: 7%;
-    position: relative;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
-    box-shadow: 14px 4px 44px 0px rgba(0, 0, 0, 0.15);
-    opacity: 100%;
+    height: 5.625rem;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-self: center;
     justify-content: center;
-    height: 5.625rem;
-    z-index: 10;
+    
+   
   
 `;
 const StyledTabHeadingWrapper=styled.div` 
@@ -36,15 +34,12 @@ const StyledTabHeadingBtnContainer = styled.div`
     display: flex;
     justify-content: flex-start;
     padding-left: 4%;
-    gap: 2%;
-
+    gap: 1%;
 `;
 
 const StyledDivider=styled.div`
     width: 0.12rem;
-    background-color: rgba(255, 255, 255, 0.08);;
-    height: 3rem;
-    
+    background-color: rgba(255, 255, 255, 0.08);
 `;
 
 

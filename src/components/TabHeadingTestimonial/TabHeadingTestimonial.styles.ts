@@ -33,20 +33,23 @@ const StyledTestimonialContent=styled.div`
     background: linear-gradient( #303030, #030303);
     gap: 10%;
 `;
-const StyledTestimonialCustomerName=styled.span`
-font-family: var(--defaultFont);
-    font-size:1.25rem;
-    font-weight: 500; 
+const StyledTestimonialCustomerName=styled.p`
+    font-family: var(--defaultFont);
+    font-size: 1.25rem;
+    font-weight: 500;
     color: white;
-    margin-bottom: 1%;
-    
+    margin: 0;
+    letter-spacing: 1px;
+
+
 `;
-const StyledTestimonialCustomerCompanyName=styled.span`
+const StyledTestimonialCustomerCompanyName=styled.p`
     color: var(--grayOne);
     font-family:var(--defaultFont);
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     font-weight: 300;
-   
+    margin: 0;
+    line-height: 32px
 `;
 
 
@@ -75,18 +78,22 @@ const StyledArrowRight=styled(StyledArrow)`
     left: 85%;
 `;
 const StyledTestimonialCustomerDetail=styled.section`
-display: flex;
+    display: flex;
     flex-direction: column;
-text-align: center;
-    align-items: center;
-    gap: 2%;
+    justify-content: center;
+    align-self: center;
     height: 100%;
+    margin-top: 10%;
+    text-align: center;
 `;
 
 const StyledTestimonialCustomerImg=styled.img`
 width: 6rem;
     height: 6rem;
-    margin-bottom: 3%;
+    position: absolute;
+    top: 54%;
+    left: 44%;
+    
    
 `;
 export {StyledTestimonialCustomerName,StyledTestimonialCustomerCompanyName,StyledTestimonialCustomerImg,StyledTestimonialContentContainer,StyledTestimonialCustomerDetail,StyledArrowLeft,StyledArrowRight,StyledDoubleQuotation,StyledTestimonialDescription,StyledTestimonialContent}
