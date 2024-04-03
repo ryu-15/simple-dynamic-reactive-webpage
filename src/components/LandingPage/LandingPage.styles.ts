@@ -1,21 +1,16 @@
 import styled from "styled-components";
 
 const StyledLandingPageSection=styled.section`
-   
     position: relative;
+    width: 96%;
+    padding-left: 4%;
 `;
 const StyledLandingPageContent=styled.div`
-    padding-left: 60px;
-    display: flex;
-    flex-direction: row;
     font-family: var(--defaultFont);
+    padding-top:9%;
 `;
 const StyledLandingGraphics=styled.div`
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top:0;
-    right:0;
+   
 `;
 
 export {StyledLandingGraphics,StyledLandingPageSection,StyledLandingPageContent}

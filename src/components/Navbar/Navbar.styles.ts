@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 const StyledNavbar=styled.div`
-    padding-top: 16px;
-    padding-left: 5%;
+    padding-top: 1rem;
+    padding-left: 4%;
     display: flex;
     flex-direction: row;
-    gap: 19%;
+    gap: 18%;
     position: fixed;
-    height: 10%;
-    overflow: hidden;
+    padding-bottom: 1%;
     background-color: black;
-    width: 100%;
+    width: 96%;
     z-index: 999;
+  
 `;
 const StyledNavItem=styled.div`
  display: flex;
@@ -29,34 +29,37 @@ const StyledNavAnchor=styled.a`
  text-decoration: none;
  line-height: 2.8rem;
 `;
-const StyledRevelLogo=styled.span`
+const StyledRevelLogo=styled.p`
     font-family: var(--fancyFont);
     font-size: 2rem;
     font-weight: bolder;
     color: white;
-    margin-left: 11%;
+    margin: auto;
+    inset: 0;
+    padding-left: 10%;
 `;
 const StyledBtnContainer=styled.div`
     display: flex;
     flex-direction: row;
-    gap: 16px;
-    margin-right: 10%;
+    gap: 1rem;
+    margin-right: 5%;
+    
 `;
 const StyledButton=styled.button`
     font-family: var(--defaultFont);
     font-size: 1.2rem;
-    padding: 16px 12px;
-    border-radius: 10px;
+    padding: 1rem 0.75rem;
+    border-radius: 0.625rem;
     cursor: pointer;
-    width: 158px;
-    height: 52px;
+    width: 9rem;
+    height: 3rem;
     line-height: 0;
-    border: 2px solid var(--blue);
+    border: 0.125rem solid var(--blue);
     color: var(--blue);
     background-color: transparent;
 `;
 const StyledButtonBlue=styled(StyledButton)`
-    border: 2px solid var(--blue);
+    border: 0.125rem solid var(--blue);
     color: white;
     background-color: var(--blue);
 `;

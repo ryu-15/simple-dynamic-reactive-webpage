@@ -3,23 +3,23 @@ import styled from "styled-components";
 const StyledTextSection=styled.div`
     display: flex;
     flex-direction: column;
-    gap: 12px;
- width: 57%;
-    font-size: 1.125rem;
+    gap: 0.75rem;
+ width: 61%;
+    
 `
 
  const StyledTitle=styled.h2`
-    padding-top: 218px;
+    padding-top: 12.5%;
     color: white;
-    font-size: 2.85rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: 110%;
 `
 const StyledDescription=styled.p`
  color: white;
- font-size: 20px;
- font-family: var(--defaultFont);
+ font-size: 1.25rem;
+line-height: 140%;
 
 `
 export {StyledTitle,StyledTextSection,StyledDescription}

@@ -1,19 +1,16 @@
 import styled from "styled-components";
 
 const StyledTabHeading = styled.div`
-    margin-top: 7%;
+    margin-top: 5%;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
     height: 5.625rem;
     display: flex;
     flex-direction: column;
-    align-self: center;
     justify-content: center;
-    
-   
-  
 `;
 const StyledTabHeadingWrapper=styled.div` 
     backdrop-filter: blur(3px);
+    width: 100%;
 `;
 const StyledTabHeadingBtn=styled.button<{ $isActive?: boolean; }>` 
     background: ${props => props.$isActive ? "linear-gradient(to right, #282828,#181818)" : "transparent"};

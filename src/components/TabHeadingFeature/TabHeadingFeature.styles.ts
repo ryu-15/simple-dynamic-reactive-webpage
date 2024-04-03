@@ -3,11 +3,10 @@ import styled from "styled-components";
 
 const StyledFeatureDescription=styled.p`
     color: white;
-    text-align:center;
-    font-family: var(--defaultFont);    
+    text-align: center;
+    font-family: var(--defaultFont);
     font-size: 1.45rem;
-    line-height: 150%; 
-    margin-top:20 px;
+    line-height: 150%;
 `;
 const StyledFeatureContentContainer=styled.div`
     display: flex;

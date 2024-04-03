@@ -3,7 +3,6 @@ import styled from "styled-components";
 const StyledTab=styled.section`
     width: fit-content;
     padding: 5%;
-    overflow: hidden;
     margin: auto;
     inset: 0;
 `;
