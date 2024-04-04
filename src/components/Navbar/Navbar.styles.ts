@@ -9,7 +9,7 @@ const StyledNavbar=styled.div`
     position: fixed;
     padding-bottom: 1%;
     background-color: black;
-    width: 96%;
+    width: 95%;
     z-index: 999;
   
 `;
@@ -36,13 +36,13 @@ const StyledRevelLogo=styled.p`
     color: white;
     margin: auto;
     inset: 0;
-    padding-left: 10%;
+    padding-left: 9%;
 `;
 const StyledBtnContainer=styled.div`
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-right: 5%;
+    padding-right: 4%;
     
 `;
 const StyledButton=styled.button`

@@ -7,34 +7,40 @@ const StyledFeatureDescription=styled.p`
     font-family: var(--defaultFont);
     font-size: 1.45rem;
     line-height: 150%;
+    margin-bottom: 10%;
+    
 `;
 const StyledFeatureContentContainer=styled.div`
     display: flex;
-    gap: 3rem;
-    margin-top: 10%;
-    margin-left: 6%;
+    gap: 6rem;
+    
+    
 `;
-const StyledFeatureContent=styled.span`
+const StyledFeatureContent=styled.div`
 display: flex;
 flex-direction: column;
 `;
 const StyleFeatureContentImg=styled.img`
 padding-bottom: 2rem;
-width: 21.25rem;
-height: 21.25rem;
+width: 100%;
+aspect-ratio: 1/1;
     `;
-const StyleFeatureContentTitle=styled.p`
+const StyleFeatureContentTitle=styled.span`
 color: #FFF;
 font-family:var(--defaultFont);
 font-size: 2rem;
-font-weight: 700; 
+font-weight: 700;
+    width:fit-content;
 `;
-const StyleFeatureContentDescription=styled.p`
+const StyleFeatureContentDescription=styled.span`
     font-family: var(--defaultFont);
     color: gray;
     font-size: 1.5rem;
     font-weight: 500; 
+    text-align: left;
     margin:0;
+    
+   
 `;
 
 export {StyleFeatureContentDescription,StyledFeatureContent,StyledFeatureDescription,StyledFeatureContentContainer,StyleFeatureContentTitle,StyleFeatureContentImg}

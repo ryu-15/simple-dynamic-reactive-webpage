@@ -83,7 +83,8 @@ const StyledTestimonialCustomerDetail=styled.section`
     justify-content: center;
     align-self: center;
     height: 100%;
-    margin-top: 10%;
+    position: absolute;
+    top: 33%;
     text-align: center;
 `;
 

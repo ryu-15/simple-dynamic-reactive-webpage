@@ -1,50 +1,62 @@
 import styled from "styled-components";
 
 const StyledBackgroundSection = styled.div`
+    width: 100%;
+height:100%;
+    
 `;
 const StyledRevelLogoImg = styled.img`
     position: absolute;
-    top: 62%;
-    left: 53%;
     z-index: 3;
     border-radius: 6.25rem;
     width: 13.125rem;
     height: 4.062rem;
+    top:80%;
+    right:85%;
+   
 `;
 const StyledUiUxImg = styled.img`
     position: absolute;
-    top: 96%;
-    left: 65%;
     z-index: 3;
     border-radius: 6.25rem;
     width: 7.438rem;
     height: 4.063rem;
+    top:127%;
+    right: 75%;
 `;
 const StyledBigEllipse = styled.div`
     width: 3rem;
     height: 3rem;
     position: absolute;
-    top: 27%;
-    left: 52%;
     background: linear-gradient(white, black);
     border-radius: 50%;
     filter: blur(0.15rem);
     opacity: 90%;
+    top: 40%;
+    right:150%;
+   
 `;
 const StyledHollowCircle = styled.img`
-    position: absolute;
     width: 27.063rem;
     height: 27.063rem;
-    top: 40%;
-    left: 64%;
     z-index: 0;
+    top: 51%;
+    right: -5.5%;
+    left:-3%;
+    position: absolute;
+    
 `;
 const StyledRobot=styled.img`
     position: absolute;
     width: 24.814rem;
     height: 24.814rem;
-    top: 43.5%;
-    left: 65.25%;
+    top:55%;
+    left: 1.5%;
+`;
+const StyledRobotWrapper=styled.div`
+    width: 24.814rem;
+    height: 24.814rem; 
+    position: relative;
 `;
 const StyledRobotBackground = styled(StyledRobot)`
     background-image: linear-gradient(white, black);
@@ -52,7 +64,6 @@ const StyledRobotBackground = styled(StyledRobot)`
     padding: 0;
 `;
 const StyledRobotImg = styled(StyledRobot)`
-  
 `;
 const StyledSmallEllipse = styled.div`
     width: 2.5rem;
@@ -65,16 +76,19 @@ const StyledSmallEllipse = styled.div`
     opacity: 90%;
 `;
 const StyledEllipseTopLeft = styled(StyledSmallEllipse)`
-    top: 78%;
-    left: 63%;
+    
+   top:47%;
+    right: 11%;//top right
 `;
 const StyledEllipseBottomLeft = styled(StyledSmallEllipse)`
-    top: 102.5%;
-    left: 93%;
+   top:108%;
+    right:98%;
 `;
 const StyledEllipseTopRight = styled(StyledSmallEllipse)`
-    top: 37%;
-    left: 89%;
+ top:136%;
+    left:89%;
+//bottom left
+    
 `;
 export {
     StyledRobotBackground,
@@ -86,5 +100,5 @@ export {
     StyledBigEllipse,
     StyledHollowCircle,
     StyledUiUxImg,
-    StyledRevelLogoImg
+    StyledRevelLogoImg,StyledRobotWrapper
 }

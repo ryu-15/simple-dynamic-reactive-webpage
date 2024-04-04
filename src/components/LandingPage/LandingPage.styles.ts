@@ -1,16 +1,24 @@
 import styled from "styled-components";
 
 const StyledLandingPageSection=styled.section`
-    position: relative;
-    width: 96%;
+    width: 100%;
     padding-left: 4%;
+    display: flex;
+   
+    
+    
 `;
 const StyledLandingPageContent=styled.div`
     font-family: var(--defaultFont);
-    padding-top:9%;
+    width: 60.5%;
+    margin-top:15%;
 `;
 const StyledLandingGraphics=styled.div`
-   
+    width: 35.5%;
+    display: flex;
+    flex-direction: column;
+    
+    
 `;
 
 export {StyledLandingGraphics,StyledLandingPageSection,StyledLandingPageContent}
