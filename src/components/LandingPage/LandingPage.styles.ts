@@ -17,6 +17,7 @@ const StyledLandingGraphics=styled.div`
     width: 35.5%;
     display: flex;
     flex-direction: column;
+    position: relative;
     
     
 `;

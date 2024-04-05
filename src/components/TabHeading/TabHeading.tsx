@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+gitimport React, {useState} from "react";
 import TabHeadingFeatureTab from "../TabHeadingFeature/TabHeadingFeature.tsx";
 import TabHeadingHomeTab from "../TabHeadingHome/TabHeadingHome.tsx";
 import TabHeadingAboutTab from "../TabHeadingAbout/TabHeadAbout.tsx";
